@@ -22,7 +22,7 @@ type Props = {
   width: number,
   perspective: number,
   duration: number,
-  activeNumber: number,
+  activeNumber: string,
   delay: number,
   play: boolean,
   numberStyle: { [string]: string | number },
